@@ -1,5 +1,6 @@
 h1{
   color: blue;
+  font-family: cursive;
 }
 p{
   font-size: 24pc;
@@ -11,24 +12,36 @@ table {
   border: 3px solid rgb(53, 42, 53);
 }
 
-thead th:nth-child(1) {
-  width: 30%;
+tbody {
+  text-align: center;
 }
 
-thead th:nth-child(2) {
-  width: 20%;
+th{
+  padding: 5px;
+  text-emphasis: bold;
+  font-size: 25px;
+  font-family: monospace;
+  background-color: rgba(86, 94, 97, 0.534);
+  color:rgb(170, 0, 0);
 }
 
-thead th:nth-child(3) {
-  width: 15%;
+tfoot{
+  background-color: rgb(255, 255, 137);
+  text-align: right;
+  color: rgb(95, 122, 120);
 }
 
-thead th:nth-child(4) {
-  width: 35%;
+tfoot th,
+tbody td:first-child {
+  color:rgba(50, 116, 116, 0.658);
+  
+  font-weight:bold;
+  text-align: right;
+  background-color: rgba(185, 247, 216, 0.432);
 }
 
-th,
+
 td {
-  padding: 20px;
+  padding: 10px;
   border: dashed rgb(145, 61, 61);
 }
