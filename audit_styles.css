@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+  font-family: cursive;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 44pc;
+  height: 800px;
+  border-collapse: collapse;
+  border: 3px solid rgb(53, 42, 53);
+}
+
+tbody {
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+  text-emphasis: bold;
+  font-size: 25px;
+  font-family: monospace;
+  background-color: rgba(86, 94, 97, 0.534);
+  color:rgb(170, 0, 0);
+}
+
+tfoot {
+  background-color: rgb(255, 255, 137);
+  text-align: right;
+  color: rgb(95, 122, 120);
+}
+
+tfoot th,
+tbody td:first-child {
+  color:rgba(50, 116, 116, 0.658);
+  
+  font-weight:bold;
+  background-color: rgba(185, 247, 188, 0.637);
+}
+
+td {
+  padding: 10px;
+  border: dashed rgb(145, 61, 61);
+}
